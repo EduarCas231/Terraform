@@ -1,5 +1,8 @@
-variable length {
+variable "length" {
+
   type        = number
-  default     = 20
+  default     = 25
   description = "Legth of the random string"
+
 }
+
